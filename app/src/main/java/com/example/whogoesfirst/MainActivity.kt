@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
             // when button is clicked, read both team names from EditText widgets
             // check use has typed something into both EditText widgets
             // if not, use a Toast to remind them to fill in both
-            if (teamText1.isBlank() || teamText1.isBlank()) {
+            if (teamText1.isBlank() || teamText2.isBlank()) {
                 Toast.makeText(this, getString(R.string.team_name_blank_error), Toast.LENGTH_LONG).show()
             } else {
                 // create list of team choices to pull from, use random() to pick one
