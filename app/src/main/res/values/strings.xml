@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WhoGoesFirst</string>
+    <string name="enter_team_name">Team\'s Name</string>
+    <string name="team1_text">Team 1</string>
+    <string name="team2_text">Team 2</string>
+    <string name="select_button_text">Select Random Team</string>
+    <string name="results_shown_text">results shown here</string>
+    <string name="team_name_blank_error">Please enter a team name in each text box.</string>
+
+</resources>
